@@ -297,3 +297,110 @@ header {
         }
     }
 }
+
+.stories {
+    padding: 30px calc(50% - 560px);
+    margin-bottom: 270px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+        h1 {
+            font-weight: bold;
+            font-size: 36px;
+            color: #000000;
+        }
+        a {
+            font-weight: 600;
+            font-size: 17px;
+            color: #FB8F1D;
+        }
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 260px;
+        img {
+            width: 260px;
+            height: 260px;
+            border-radius: 10px 10px 0 0;
+        }
+        h3 {
+            font-weight: bold;
+            font-size: 19px;
+            line-height: 30px;
+            color: #000000;
+        }
+        p {
+            font-size: 15px;
+            line-height: 26px;
+            color: #7D7987;
+            margin-bottom: 28px;
+        }
+    }
+    &__link {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        color: #FB8F1D;
+    }
+}
+
+.footer {
+    &__top {
+        display: flex;
+        &-left {
+            width: 500px;
+            p {
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 28px;
+                color: #848484;
+                width: 380px;
+                &:nth-child(2) {
+                    margin-top: 25px;
+                    margin-bottom: 55px;
+                }
+            }
+        }
+        &-right {
+            width: 700px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    
+    &__linkblock {
+        h4 {
+            font-weight: bold;
+            font-size: 19px;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+        a {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 38px;
+            color: #848484;
+            display: block;
+        }
+    }
+    hr {
+        margin-top: 77px;
+    }
+    &__sm {
+        height: 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: black;
+        a {
+            margin: 0 10px;
+            color: black;
+        }
+    }
+}

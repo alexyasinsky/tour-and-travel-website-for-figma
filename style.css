@@ -379,4 +379,146 @@ header nav a:hover {
   line-height: 40px;
   font-size: 16px;
 }
+
+.stories {
+  padding: 30px calc(50% - 560px);
+  margin-bottom: 270px;
+}
+
+.stories__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 60px;
+}
+
+.stories__header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #000000;
+}
+
+.stories__header a {
+  font-weight: 600;
+  font-size: 17px;
+  color: #FB8F1D;
+}
+
+.stories__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stories__card {
+  width: 260px;
+}
+
+.stories__card img {
+  width: 260px;
+  height: 260px;
+  border-radius: 10px 10px 0 0;
+}
+
+.stories__card h3 {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.stories__card p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #7D7987;
+  margin-bottom: 28px;
+}
+
+.stories__link {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #FB8F1D;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__top-left {
+  width: 500px;
+}
+
+.footer__top-left p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #848484;
+  width: 380px;
+}
+
+.footer__top-left p:nth-child(2) {
+  margin-top: 25px;
+  margin-bottom: 55px;
+}
+
+.footer__top-right {
+  width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__linkblock h4 {
+  font-weight: bold;
+  font-size: 19px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.footer__linkblock a {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #848484;
+  display: block;
+}
+
+.footer hr {
+  margin-top: 77px;
+}
+
+.footer__sm {
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  color: black;
+}
+
+.footer__sm a {
+  margin: 0 10px;
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */
